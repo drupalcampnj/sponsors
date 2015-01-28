@@ -1,0 +1,2 @@
+# sponsors
+Slideshow for DrupalCampNJ
