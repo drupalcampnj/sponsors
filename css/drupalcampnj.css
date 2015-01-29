@@ -2,9 +2,13 @@
 * Customizations for the DrupalCampNJ slideshow
 */
 
+.gold, .silver {
+  text-align: center
+}
+
 .gold img,
 .silver img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .gold .sponsor-img,
