@@ -1,0 +1,21 @@
+/*
+* Customizations for the DrupalCampNJ slideshow
+*/
+
+.gold img,
+.silver img {
+  width: 100%;
+}
+
+.gold .sponsor-img,
+.silver .sponsor-img{
+  float: left;
+  width: 40%;
+  height: 300px;
+  line-height: 300px;
+}
+
+.gold .sponsor-img:last-child,
+.silver .sponsor-img:last-child{
+  float: right;
+}
