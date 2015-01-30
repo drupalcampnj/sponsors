@@ -2,6 +2,7 @@
 * Customizations for the DrupalCampNJ slideshow
 */
 
+// Gold and Silver Sponsors
 .gold, .silver {
   text-align: center
 }
@@ -22,4 +23,36 @@
 .gold .sponsor-img:last-child,
 .silver .sponsor-img:last-child{
   float: right;
+}
+
+// Individual Sponsors
+
+.individual {
+  // For whatever reason, the first item here isn't being watched
+  // so this blank line is here just to get the next one to load.
+}
+
+.individual ul {
+  width: 80%;
+}
+
+.individual h4 {
+  margin: 0;
+}
+
+.individual li {
+  font-size: .85em;
+  float: left;
+  width: 49%;
+  list-style: none;
+  padding-bottom: 1em;
+}
+
+.individual li:nth-child(odd) {
+  clear: left;
+}
+
+.individual span {
+  font-style: italic;
+  font-size: .75em;
 }
